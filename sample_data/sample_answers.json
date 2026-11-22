@@ -1,0 +1,51 @@
+[
+  {
+    "title": "1. AI Agent Hallucination (partial answer)",
+    "question": "Why does hallucination do more harm in an AI agent than in a chatbot?",
+    "model_answer": "A wrong fact can feed into the agent's next steps or be saved in memory and reused, causing further incorrect actions.",
+    "student_answer": "An AI agent can use incorrect information in future tasks, which may lead to more mistakes.",
+    "max_marks": 5
+  },
+  {
+    "title": "2. SQL: DELETE vs DROP",
+    "question": "What is the difference between DELETE and DROP in SQL?",
+    "model_answer": "DELETE removes records from a table and can use a WHERE clause, whereas DROP removes the entire database object, such as a table.",
+    "student_answer": "DELETE removes rows from a table, whereas DROP deletes the entire table.",
+    "max_marks": 5
+  },
+  {
+    "title": "3. Machine Learning: Supervised vs Unsupervised",
+    "question": "Explain the difference between supervised and unsupervised learning.",
+    "model_answer": "Supervised learning uses labelled training data to learn a mapping between inputs and outputs. Unsupervised learning uses unlabelled data to discover hidden patterns, structures or groups.",
+    "student_answer": "Supervised learning uses labelled data, while unsupervised learning uses unlabelled data.",
+    "max_marks": 5
+  },
+  {
+    "title": "Test: Completely correct (SQL)",
+    "question": "What is the difference between DELETE and DROP in SQL?",
+    "model_answer": "DELETE removes records from a table and can use a WHERE clause, whereas DROP removes the entire database object, such as a table.",
+    "student_answer": "DELETE is a DML command that removes selected rows from a table and can use a WHERE clause, so the table structure remains. DROP is a DDL command that removes the whole table, including its structure and data, from the database.",
+    "max_marks": 5
+  },
+  {
+    "title": "Test: Different wording (ML)",
+    "question": "Explain the difference between supervised and unsupervised learning.",
+    "model_answer": "Supervised learning uses labelled training data to learn a mapping between inputs and outputs. Unsupervised learning uses unlabelled data to discover hidden patterns, structures or groups.",
+    "student_answer": "In the first type, the algorithm trains on examples where every input already comes with the right answer, so it learns to predict that answer for new inputs. In the second type no answers are provided, and the algorithm tries to find natural groupings or structure in the data by itself.",
+    "max_marks": 5
+  },
+  {
+    "title": "Test: Completely incorrect (SQL)",
+    "question": "What is the difference between DELETE and DROP in SQL?",
+    "model_answer": "DELETE removes records from a table and can use a WHERE clause, whereas DROP removes the entire database object, such as a table.",
+    "student_answer": "DELETE is used to create a new table, and DROP is used to add new rows to a table.",
+    "max_marks": 5
+  },
+  {
+    "title": "Test: Irrelevant answer (ML)",
+    "question": "Explain the difference between supervised and unsupervised learning.",
+    "model_answer": "Supervised learning uses labelled training data to learn a mapping between inputs and outputs. Unsupervised learning uses unlabelled data to discover hidden patterns, structures or groups.",
+    "student_answer": "The weather today is pleasant and I enjoy watching cricket with my friends.",
+    "max_marks": 5
+  }
+]
